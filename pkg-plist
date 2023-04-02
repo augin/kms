@@ -1,0 +1,31 @@
+/etc/inc/priv/kms.priv.inc
+etc/rc.d/kms.sh
+pkg/kms.xml
+py-kms/Etrigan.py
+py-kms/KmsDataBase.xml
+py-kms/kms-start.sh
+py-kms/pykms_Aes.py
+py-kms/pykms_Base.py
+py-kms/pykms_Client.py
+py-kms/pykms_Connect.py
+py-kms/pykms_DB2Dict.py
+py-kms/pykms_Dcerpc.py
+py-kms/pykms_Filetimes.py
+py-kms/pykms_Format.py
+py-kms/pykms_GuiBase.py
+py-kms/pykms_GuiMisc.py
+py-kms/pykms_Misc.py
+py-kms/pykms_PidGenerator.py
+py-kms/pykms_RequestUnknown.py
+py-kms/pykms_RequestV4.py
+py-kms/pykms_RequestV5.py
+py-kms/pykms_RequestV6.py
+py-kms/pykms_RpcBase.py
+py-kms/pykms_RpcBind.py
+py-kms/pykms_RpcRequest.py
+py-kms/pykms_Server.py
+py-kms/pykms_Sql.py
+py-kms/pykms_Structure.py
+%%DATADIR%%/info.xml
+@dir /etc/inc/priv
+@dir /etc/inc

@@ -1,0 +1,15 @@
+name: "pfSense-pkg-kms"
+version: "1.0.0_1"
+origin: sysutils/pfSense-pkg-kms
+comment: <<EOD
+pfSense package kms
+EOD
+maintainer: coreteam@pfsense.org
+prefix: /usr/local
+categories: [ sysutils, ]
+licenselogic: single
+licenses: [ APACHE20, ]
+deps: { 
+}
+options: {
+}

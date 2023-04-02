@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<pfsensepkgs>
+	<package>
+		<name>kms</name>
+		<website>http://github.com</website>
+		<descr><![CDATA[KMS Server.]]></descr>
+		<version>1.0.0_0</version>
+		<configurationfile>kms.xml</configurationfile>
+		<logging>
+			<logfilename>kms-server.log</logfilename>
+		</logging>
+	</package>
+</pfsensepkgs>
