@@ -4,7 +4,7 @@
 		<name>kms</name>
 		<website>http://github.com</website>
 		<descr><![CDATA[KMS Server.]]></descr>
-		<version>1.0.0_0</version>
+		<version>%%PKGVERSION%%</version>
 		<configurationfile>kms.xml</configurationfile>
 		<logging>
 			<logfilename>kms.log</logfilename>
