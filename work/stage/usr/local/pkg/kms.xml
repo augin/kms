@@ -28,20 +28,20 @@
 
 
 	<name>kms</name>
-	<title>kms: Server</title>
+	<title>kms: server</title>
 
 	<menu>
-    	<name>KMS Server log</name>
+    	<name>KMS server log</name>
     	<section>Diagnostics</section>
-    	<tooltiptext>KMS Server log</tooltiptext>
+    	<tooltiptext>KMS server log</tooltiptext>
     	<url>/status_logs_packages.php?pkg=kms</url>
 	</menu>
 
 	<service>
 		<name>kms</name>
 		<rcfile>kms.sh</rcfile>
-		<executable>kms</executable>
-		<description>KMS Server</description>
+		<executable>python3.8</executable>
+		<description>KMS server</description>
 	</service>
 
 

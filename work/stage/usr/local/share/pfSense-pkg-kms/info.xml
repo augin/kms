@@ -7,7 +7,7 @@
 		<version>1.0.0_0</version>
 		<configurationfile>kms.xml</configurationfile>
 		<logging>
-			<logfilename>kms-server.log</logfilename>
+			<logfilename>kms.log</logfilename>
 		</logging>
 	</package>
 </pfsensepkgs>

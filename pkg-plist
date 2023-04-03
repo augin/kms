@@ -3,6 +3,7 @@ etc/rc.d/kms.sh
 pkg/kms.xml
 py-kms/Etrigan.py
 py-kms/KmsDataBase.xml
+py-kms/kms
 py-kms/kms-start.sh
 py-kms/pykms_Aes.py
 py-kms/pykms_Base.py

@@ -1,11 +1,12 @@
-/usr/local/share/licenses/pfSense-pkg-kms-1.0.0_1/catalog.mk
-/usr/local/share/licenses/pfSense-pkg-kms-1.0.0_1/LICENSE
-/usr/local/share/licenses/pfSense-pkg-kms-1.0.0_1/APACHE20
+/usr/local/share/licenses/pfSense-pkg-kms-1.0.0_2/catalog.mk
+/usr/local/share/licenses/pfSense-pkg-kms-1.0.0_2/LICENSE
+/usr/local/share/licenses/pfSense-pkg-kms-1.0.0_2/APACHE20
 /etc/inc/priv/kms.priv.inc
 etc/rc.d/kms.sh
 pkg/kms.xml
 py-kms/Etrigan.py
 py-kms/KmsDataBase.xml
+py-kms/kms
 py-kms/kms-start.sh
 py-kms/pykms_Aes.py
 py-kms/pykms_Base.py

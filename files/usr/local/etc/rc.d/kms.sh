@@ -1,31 +1,34 @@
 #!/bin/sh
-# This file was automatically generated
-# by the pfSense service handler.
 
-rc_start() {
-	
-echo "Starting KMS Server..."
-//usr/local/bin/python3.8 /usr/local/py-kms/pykms_Server.py 0.0.0.0 1688 -V INFO -F /var/log/kms-server.log --logsize 100&
+# $FreeBSD$
+#
+# PROVIDE: kms 
+# REQUIRE: NETWORK
+# KEYWORD: shutdown
 
-}
+# add the following line to /etc/rc.conf to enable the kms:
+# kms_enable="YES"
+. /etc/rc.subr
 
-rc_stop() {
-	echo "Stopping KMS Server..."
-/usr/bin/killall zpython3.8
-/bin/sleep 5
+location="/usr/local/py-kms"
+name="kms"
+rcvar="kms_enable"
 
-}
+: ${kms_enable:="YES"}
 
-case $1 in
-	start)
-		rc_start
-		;;
-	stop)
-		rc_stop
-		;;
-	restart)
-		rc_stop
-		rc_start
-		;;
-esac
+base_path="/usr/local/py-kms"
 
+listen="0.0.0.0"
+port="1688"
+logfile="/var/log/${name}.log"
+log_level="INFO"
+pidfile="/var/run/kms.pid"
+python="/usr/local/bin/python3.8"
+script_py="/usr/local/py-kms/pykms_Server.py"
+command="/usr/sbin/daemon"
+procname="daemon"
+command_args=" -c -P ${pidfile} ${python} ${script_py} ${listen} ${port} -V ${log_level} -F ${logfile} --logsize 100"
+
+
+load_rc_config $name
+run_rc_command "$1"
