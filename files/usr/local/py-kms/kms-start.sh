@@ -1,1 +1,1 @@
-/usr/local/bin/python3.8 /usr/local/py-kms/pykms_Server.py 0.0.0.0 1688 -V INFO -F /var/log/kms-server.log --logsize 100
+/usr/local/bin/python3.11 /usr/local/py-kms/pykms_Server.py 0.0.0.0 1688 -V INFO -F /var/log/kms-server.log --logsize 100

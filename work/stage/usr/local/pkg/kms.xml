@@ -40,7 +40,7 @@
 	<service>
 		<name>kms</name>
 		<rcfile>kms.sh</rcfile>
-		<executable>python3.8</executable>
+		<executable>python3.11</executable>
 		<description>KMS server</description>
 	</service>
 

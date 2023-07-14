@@ -1,6 +1,6 @@
 name: "pfSense-pkg-kms"
-version: "1.0.0_2"
-origin: sysutils/pfSense-pkg-kms
+version: "1.0.0_3"
+origin: sysutils/kms
 comment: <<EOD
 pfSense package kms
 EOD

@@ -1,6 +1,6 @@
-/usr/local/share/licenses/pfSense-pkg-kms-1.0.0_2/catalog.mk
-/usr/local/share/licenses/pfSense-pkg-kms-1.0.0_2/LICENSE
-/usr/local/share/licenses/pfSense-pkg-kms-1.0.0_2/APACHE20
+/usr/local/share/licenses/pfSense-pkg-kms-1.0.0_3/catalog.mk
+/usr/local/share/licenses/pfSense-pkg-kms-1.0.0_3/LICENSE
+/usr/local/share/licenses/pfSense-pkg-kms-1.0.0_3/APACHE20
 /etc/inc/priv/kms.priv.inc
 etc/rc.d/kms.sh
 pkg/kms.xml
